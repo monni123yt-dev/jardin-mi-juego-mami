@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mami...</title>
+  <meta name="description" content="Página de presentación de mi videojuego hecho en Bitsy.">
+  <link rel="stylesheet" href="stylesbitsy.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ 
+  <div class="fondo-neon" aria-hidden="true">
+    <div class="cuadricula-3d"></div>
+    <div class="figura rombo-magenta"></div>
+    <div class="figura rombo-cian"></div>
+    <div class="figura triangulo-cian"></div>
+  </div>
+
+  <!-- cambie la estetica de los 80 a el internet japones de los 2000 por q como son 8 bit me parecio mss  bonito -->
+  <div class="neocities-wrapper">
+
+    
+    <header class="banner-superior">
+      <div class="banner-contenido">
+        <span class="etiqueta">proyecto final </span>
+        <h1>mami...</h1>
+        <p class="lema">este juego lo cree para mostrar que el duelo no es siempre algo tragico y tampoco un proceso lineal ni horrible </p>
+      </div>
+      <a class="boton-banner" href="#jugar"> Jugar </a>
+    </header>
+
+    
+    <div class="layout-columnas">
+
+     
+      <aside class="col-izquierda">
+        
+        <div class="caja-modulo">
+          <div class="titulo-barra"> conoce a anna</div>
+          <div class="avatar-marco">
+            <img src="media/fotos/nina.jpeg" alt="Avatar de la niña">
+          </div>
+          <ul class="ficha-datos">
+            <li><strong>Nombre:</strong> anna</li>
+            <li><strong>Rol:</strong> Protagonista</li>
+            <li>Curiosa e inocente, la acompañaras a recorrer sus recuerdos y los lugares favoritos de su madre buscando los pétalos necesarios para armar su regalo mientras continuas abordas su perspectiva sobre el duelo y como nunca esta sola .</li>
+          </ul>
+        </div>
+
+        <div class="caja-modulo" id="creditos">
+          <div class="titulo-barra"> Créditos</div>
+          <ul class="lista-creditos">
+            <li><strong>Creación:</strong> Angie Rincón</li>
+            <li><strong>Herramienta:</strong> Bitsy </li>
+            <li><strong>materia</strong> Lenguajes Digitales I</li>
+            <li>2026</li>
+          </ul>
+        </div>
+
+      </aside>
+
+
+      <main class="col-central">
+
+        <section class="caja-modulo" id="historia">
+          <h2 class="titulo-centro"> Resumen e Historia </h2>
+          <p>Cuando recien pense en la idea de este juego investigue mucho como manejar temas sensibles , fue hay que me di cuenta que la mayoria de los juegos siempre abordan la muerte y el duelo de una manera traumatica y siempre triste , asi que me gusto crear un nueva narrativa desde otra perspectivav </p>
+          <p>a ti jugador me gustaria que te quede el mensaje , se que hay momentos dificiles pero siempre puedes pedir ayuda asi como tampoco te obligues a sentirte bn todo es un proceso y vivirlo ayuda a sanar </p>
+        </section>
+
+    
+        <div class="caja-aviso">
+          <strong> Cómo jugar:</strong> nose que paso al inicio pero solo oprime la  barra :).
+        </div>
+
+        <section class="caja-modulo caja-juego" id="jugar">
+          <div class="titulo-barra"> Pantalla de Juego: mami...</div>
+          <div class="marco-iframe">
+            <iframe id="juego" src="mami.html" title="Juego: mami..."></iframe>
+          </div>
+        </section>
+
+        <section class="caja-modulo" id="personajes">
+          <div class="titulo-barra"> Conociendo a...</div>
+          <div class="subgrid-personajes">
+            <article class="mini-ficha">
+              <div class="mini-foto">
+                <img src="media/fotos/papa.jpeg" alt="Papá">
+              </div>
+              <h3>Papá</h3>
+              <p>Un apoyo emocional . Escucha, valida los sentimientos de la niña y le recuerda que no está sola y que ambos comparten el amor por mamá y no esta sola.</p>
+            </article>
+
+            <article class="mini-ficha">
+              <div class="mini-foto">
+                <img src="media/fotos/gatote.jpeg" alt="amigo">
+             
+              </div>
+              <h3>Gatote</h3>
+             <p>Su mascota y compañero . Es quien le recuerda la misión de buscar los materiales afuera para terminar el detalle de mamá.</p>
+            </article>
+          </div>
+        </section>
+
+      </main>
+
+     
+      <aside class="col-derecha">
+
+        <nav class="caja-modulo" aria-label="Principal">
+          <div class="titulo-barra"> Navegación</div>
+          <ul class="menu-retro">
+            <li><a href="#jugar"> Jugar</a></li>
+            <li><a href="#historia">Resumen</a></li>
+            <li><a href="#personajes"> Conociendo a...</a></li>
+            <li><a href="#entradas"> Hace tiempo que...</a></li>
+            <li><a href="#creditos"> Créditos</a></li>
+          </ul>
+        </nav>
+
+        <section class="caja-modulo" id="entradas">
+          <div class="titulo-barra"> Hace tiempo que...</div>
+          <div class="scroll-entradas">
+            <div class="entrada-item">
+              <span class="fecha-tag">Recuerdo 01</span>
+              <p>siempre he pensado lo mucho que mi mami ama los peces , de hecho mi primera mascota fue un goldie y es por eso que siempre vamos a la misma fuente.</p>
+            </div>
+            <div class="entrada-item">
+              <span class="fecha-tag">Recuerdo 02</span>
+              <p>mami y yo salimos a caminar bastante dice que se siente mejor y ama mucho el  parque asi como yo la amo </p>
+            </div>
+             <div class="entrada-item">
+              <span class="fecha-tag">Recuerdo 03</span>
+              <p>hoy papi y yo salimos de viaje a la montaña volca , aunque todo el dia he pensado por que no tragimos a mami ¿eso esta bien? </p>
+            </div>
+             <div class="entrada-item">
+              <span class="fecha-tag">Recuerdo 04</span>
+              <p> ultimamente mami prefiere casi no salir , aveces pienso que yo no le gusta conmigo , pero hoy por fin salimos y me compro una chocolatina ña amo muchooooooo </p>
+            </div>
+              <div class="entrada-item">
+              <span class="fecha-tag">Recuerdo 05</span>
+              <p> nose que decir , todos me preguntan como estoy o que quiero hacer , pero yo solo quiero no pensar solo quiero un abrazo de mis papás </p>
+            </div>
+          </div>
+        </section>
+
+      </aside>
+
+    </div>
+
+    
+    <footer class="footer-retro">
+      <p>© 2026 Angie Rincón · Hecho con Bitsy · Universidad El Bosque</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
